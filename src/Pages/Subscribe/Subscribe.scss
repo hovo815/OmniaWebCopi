@@ -1,0 +1,136 @@
+.container-subscribe {
+  background-color: #18181A;
+  height: 537px;
+  width: 100%;
+
+  &-img1 {
+    height: 189px;
+  }
+
+  &-update {
+    text-align: center;
+    height: 20px;
+
+    &-title {
+      font-family: 'SuisseIntl';
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 64px;
+      color: #fff;
+      max-width: 650px;
+      width: 100%;
+      margin: 0px auto;
+    }
+
+    &-inputbutton {
+      display: flex;
+      justify-content: center;
+      padding-top: 15px;
+      //padding: 30px;
+
+      &-input input {
+        background: none;
+        color: white !important;
+        border: 1px solid #fff;
+        font-size: 15px;
+        width: 300px;
+        line-height: 19px;
+        margin-right: 30px;
+        height: 50px;
+        width: 300px;
+      }
+
+      &-input input:focus {
+        border: 2px solid #fff;
+      }
+
+      &-button button {
+        color: #fff;
+        background-color: #3D52D5;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+        height: 50px;
+        width: 150px;
+      }
+    }
+  }
+
+  &-img2 {
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .container-subscribe {
+    &-update {
+      &-inputbutton{
+        padding-top: 30px;
+      }
+      &-title {
+        font-size: 41px;
+      }
+    }
+  }
+  .container-subscribe-img1 img {
+    width: 318px;
+    height: 247px;
+  }
+  .container-subscribe-img2 img {
+    width: 168px;
+    height: 329px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container-subscribe {
+    &-update {
+      margin: 0 auto;
+
+      h2 {
+        width: 75%;
+        font-size: 24px;
+        line-height: initial;
+      }
+
+      &-inputbutton {
+        display: flex;
+        flex-direction: column;
+
+        &-button {
+          margin-top: 20px;
+
+          button {
+            margin-top: 10px;
+            text-align: center;
+            width: 100%;
+            padding: 14px 56px;
+          }
+        }
+
+        &-input {
+          margin-top: 50px;
+          input {
+            margin-right: 0px;
+            height: 50px;
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .container-subscribe-img1 img {
+    width: 318px;
+    height: 253px;
+  }
+  .container-subscribe-img2 {
+    display: none;
+  }
+  .container-subscribe-img2 img {
+
+  }
+  .subscribe-centre {
+    display: flex;
+    justify-content: center;
+  }
+}

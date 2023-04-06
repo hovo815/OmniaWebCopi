@@ -1,0 +1,322 @@
+.container-centre{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.container-max-width{
+  max-width: 1240px;
+}
+.userCard-text {
+  max-width: 748px;
+  width: 100%;
+  margin-top: 24px;
+  padding-left: 20px;
+  text-align: left;
+}
+.userCard-text p {
+  color: #3D52D5;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.userCard-text h3 {
+  font-family: 'SuisseIntl';
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 56px;
+}
+.team-member{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.team-member-width{
+  width: 50%;
+}
+
+.team-member-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-member-photo {
+  display: flex;
+}
+
+.team-member-photo h3 {
+  display: initial;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.team-member-photo p {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #747476;
+}
+
+.team-member-photo-linkedin {
+  object-fit: cover;
+  width: 34px;
+  padding-left: 15px;
+}
+
+.team-member-photo-img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  cursor: pointer;
+}
+.container-open-position{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  overflow: hidden;
+  padding-left: 20px;
+  text-align: start;
+    p{
+      color: #3D52D5;
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  h2{
+    margin-top: 20px;
+    font-family: 'SuisseIntl';
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+  }
+  h4{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747476;
+  }
+}
+.section-full{
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+.section-full h2{
+  font-family: 'SuisseIntl';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+}
+.section-full p{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #747476;
+}
+.section-news__item__image img:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+  }
+  .team-member-photo p {
+    font-size: 16px;
+  }
+  .team-member-photo h3 {
+    font-size: 16px;
+  }
+  }
+@media screen and (max-width: 1020px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 220px;
+    width: 220px;
+    padding: 20px;
+  }
+  .team-member-photo p {
+    font-size: 16px;
+  }
+  .team-member-photo h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 891px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 190px;
+    width: 190px;
+    padding: 20px;
+  }
+  .team-member-photo p {
+    font-size: 14px;
+  }
+  .team-member-photo h3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .team-member{
+    display: flex;
+    justify-content: center;
+  }
+  .team-member-width {
+    width: 100%;
+  }
+  .team-member-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 239px;
+    width: 360px;
+  }
+  .section-full h2{
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .container-open-position h2{
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .userCard-text h3 {
+    font-family: "SuisseIntl";
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+  }
+  .team-member-photo {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 731px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 239px;
+    width: 332px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 239px;
+    width: 293px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 220px;
+    width: 252px;
+  }
+  .team-member-photo h3 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 504px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 210px;
+    width: 230px;
+  }
+}
+@media screen and (max-width: 464px) {
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 210px;
+    width: 210px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .section-news__item-wrap {
+     padding: 0;
+  }
+  .section-news__item__image img {
+    width: 285px;
+    height: 157px;
+  }
+
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+  }
+  .team-member-width {
+    width: 81%;
+  }
+  .team-member-photo-img {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+  }
+  .team-member-photo-linkedin {
+    object-fit: cover;
+    width: 26px;
+    padding-left: 11px;
+  }
+  .team-member-photo{
+    text-align: center;
+  }
+  .team-member-photo h3 {
+    font-size: 13px;
+  }
+  .team-member-photo p {
+    font-size: 12px;
+  }
+  .team-member-width {
+    width: 73%;
+  }
+  .section-full h2{
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .section-full p{
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      color: #747476;
+  }
+  .section-news__item-wrap h2 {
+    width: 285px;
+  }
+  .userCard-text h3 {
+    font-family: "SuisseIntl";
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .team-member-photo h3 {
+    font-size: 11px;
+  }
+  .team-member-width {
+    width: 80%;
+
+  }
+  .container-open-position h4 {
+    font-size: 14px;
+  }
+  .section-full p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 324px) {
+.team-member-width {
+  width: 92%;
+}
+  .userCard-text h3 {
+    font-size: 20px;
+  }
+}

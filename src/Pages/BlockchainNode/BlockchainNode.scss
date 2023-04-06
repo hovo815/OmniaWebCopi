@@ -1,0 +1,657 @@
+.blockchainNode {
+  &-title {
+    text-align: start;
+    padding: 243px 0 0 20px;
+
+    p {
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.04em;
+      color: #747476;
+      font-family: 'Inter';
+      font-weight: 700;
+    }
+  }
+
+  &-text {
+    position: relative;
+  }
+
+  &-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    &-background {
+      text-align: center;
+      max-width: 1260px;
+      img {
+        padding-top: 100px;
+
+        width: 100%;
+      }
+    }
+
+    background-color: rgb(190 189 203 / 20%);
+    position: absolute;
+
+    &-backround {
+
+    }
+
+    img {
+
+    }
+  }
+
+  h1 {
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 92px;
+    padding: 20px;
+    width: 57%;
+    text-align: start;
+  }
+
+  &-text {
+    padding-top: 67px;
+  }
+
+  &-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 50px 0 0 20px;
+    width: 37%;
+
+    &-1 button {
+      background: linear-gradient(to right,#c04b8e  40%,#294ac9 100%);
+      padding: 16px 56px;
+      border: none;
+      cursor: pointer;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+    &-1 button:hover {
+      background: linear-gradient(to right,#1a3dc1  0%,#c04b8e  0%);
+      a {
+        color: #d4ded4;
+        text-decoration: none;
+      }
+    }
+
+    &-2 button {
+      background: none;
+      border: none;
+
+      a {
+        color: #18181A;
+        text-decoration: none;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #18181A;
+      }
+    }
+  }
+
+  &-logo-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+      margin-top: 28px;
+      max-width: 208px;
+      width: 100%;
+    }
+  }
+
+  .section-how-it-works {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 150px;
+
+    &-img {
+      max-width: 630px;
+      padding-right: 40px;
+
+      img {
+        max-width: 90%;
+      }
+    }
+
+    &-text {
+      max-width: 630px;
+      width: 100%;
+      text-align: start;
+
+      &-1 {
+        color: #3D52D5;
+      }
+
+      &-h2 {
+        h2 {
+          font-family: 'SuisseIntl';
+          font-weight: 400;
+          font-size: 44px;
+          line-height: 56px;
+          margin-top: 32px;
+        }
+      }
+
+      &-2 {
+        p {
+          width: 90%;
+          margin-top: 32px;
+          font-family: 'Inter';
+          font-weight: 400;
+          font-size: 21px;
+          line-height: 28px;
+          color: #747476;
+        }
+      }
+    }
+  }
+
+  .steps-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: start;
+
+    &-1 {
+      width: 20%;
+      padding-top: 126px;
+      &-number {
+        font-size: 40px;
+        font-family: 'SuisseIntl';
+        font-weight: 600;
+        color: #18181A;
+        position: relative;
+        padding-right: 8px;
+        line-height: 28px;
+      }
+
+      &-number:before {
+        content: '';
+        position: absolute;
+        width: 46px;
+        height: 4px;
+        background-color: #3D52D5;
+        bottom: 0;
+        margin-left: 27px;
+      }
+
+      &-text {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #747476;
+
+      }
+    }
+
+    &-2 {
+      width: 20%;
+      margin-top: 155px;
+      &-number {
+        font-size: 40px;
+        font-weight: 600;
+        color: #18181A;
+        position: relative;
+        padding-right: 8px;
+        line-height: 28px;
+      }
+
+      &-number:before {
+        content: '';
+        position: absolute;
+        width: 38px;
+        height: 3px;
+        background-color: #3D52D5;
+        bottom: 0;
+        margin-left: 33px;
+      }
+
+      &-text {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #747476;
+
+      }
+    }
+
+    &-3 {
+      width: 20%;
+      margin-top: 184px;
+      &-number {
+        font-size: 40px;
+        font-family: 'SuisseIntl';
+        font-weight: 600;
+        color: #18181A;
+        position: relative;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        padding-right: 8px;
+        line-height: 28px;
+      }
+
+      &-number:before {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 2px;
+        background-color: #3D52D5;
+        bottom: 0;
+        margin-left: 29px;
+      }
+
+      &-text {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #747476;
+      }
+    }
+
+    &-4 {
+      width: 20%;
+      margin-top: 220px;
+      &-number {
+        font-size: 44px;
+        font-family: 'SuisseIntl';
+        font-weight: 600;
+        color: #18181A;
+        position: relative;
+        padding-right: 8px;
+        line-height: 28px;
+      }
+
+      &-number:before {
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 1px;
+        background-color: #3D52D5;
+        bottom: 0;
+        margin-left: 30px;
+      }
+
+      &-text {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #747476;
+      }
+    }
+  }
+
+  .container-why-omnia {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    max-width: 1248px;
+
+    &-title {
+      color: #3D52D5;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.04em;
+      font-weight: 600;
+    }
+
+    &-text {
+      margin-top: 24px;
+      max-width: 681px;
+      width: 100%;
+      font-family: 'SuisseIntl';
+      font-weight: 400;
+      font-size: 44px;
+      line-height: 56px;
+    }
+  }
+
+  .container-centre {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .container-max-width {
+    max-width: 1260px;
+  }
+}
+@media screen and (max-width: 1281px){
+  .blockchainNode-img-background img{
+    max-width: 1142px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .blockchainNode {
+    &-img {
+      &-background {
+        img {
+          max-width: 1000px;
+        }
+      }
+    }
+
+    &-text {
+      padding-top: 50px;
+
+      h1 {
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 71px;
+        padding: 20px;
+        width: 57%;
+        text-align: start;
+      }
+    }
+
+    &-button {
+      &-1 button {
+        padding: 13px 20px;
+      }
+
+      &-2 button {
+        padding: 13px 0px;
+      }
+    }
+
+    &-logo {
+      &-section {
+        img {
+          max-width: 192px;
+        }
+      }
+    }
+
+    .container-max-width {
+      max-width: 1000px;
+    }
+  }
+  .section-how-it-works {
+    &-img {
+      img {
+        max-width: 85%;
+      }
+    }
+
+    .section-how-it-works-img img {
+      max-width: 88%;
+    }
+
+    .section-how-it-works {
+      &-text {
+        max-width: 378px;
+
+        &-h2 {
+          h2 {
+            white: 500px;
+            font-size: 42px;
+            line-height: 45px;
+          }
+        }
+
+        &-2 {
+          p {
+            white: 500px;
+            font-size: 18px;
+          }
+        }
+
+        &-3 {
+          p {
+            white: 500px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 769px) {
+  .blockchainNode {
+    &-img {
+      &-background {
+        img {
+          max-width: 760px;
+        }
+      }
+    }
+
+    &-text {
+      h1 {
+        font-size: 39px;
+        line-height: 44px;
+        width: 69%;
+      }
+    }
+
+    &-button {
+      width: 50%;
+    }
+
+    &-logo {
+      &-section {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          max-width: 313px;
+        }
+      }
+    }
+
+    .section-how-it-works {
+      &-text {
+        &-h2 {
+          h2 {
+
+            font-size: 29px;
+            line-height: 30px;
+          }
+        }
+
+        &-2 {
+          p {
+            line-height: 22px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+
+    .container-max-width {
+      max-width: 750px;
+    }
+
+    .container-why-omnia-text {
+      max-width: 681px;
+      font-size: 31px;
+      line-height: 36px;
+    }
+  }
+
+}
+@media screen and (max-width: 660px){
+.blockchainNode-button {
+  flex-direction: column;
+}
+}
+@media screen and (max-width: 660px) {
+  .blockchainNode {
+    &-title {
+      padding: 140px 0 0 20px;
+    }
+    &-img {
+      height: 447px;
+      &-background {
+        padding-top: 150px;
+
+        img {
+          max-width: 400px;
+        }
+      }
+    }
+    &-text {
+      padding-top: 63px;
+      h1 {
+        padding-top: 70px;
+        text-align: center;
+        font-size: 34px;
+        line-height: 43px;
+        width: 100%;
+      }
+    }
+    &-button {
+      flex-direction: column;
+      width: 100%;
+      padding-top: 0;
+      &-1 {
+        text-align: center;
+
+        button {
+          padding: 13px 115px;
+
+        }
+      }
+      &-2 {
+        text-align: center;
+      }
+    }
+    &-logo {
+      &-section {
+        display: flex;
+        flex-direction: column;
+        img {
+          max-width: 178px;
+        }
+      }
+    }
+    .container-max-width {
+      max-width: 385px;
+    }
+    .section-how-it-works {
+      flex-direction: column-reverse;
+      img {
+        margin-top: 30px;
+        max-width: 100%;
+      }
+    }
+    .steps-wrapper {
+      flex-direction: column;
+      &-1 {
+        width: 93%;
+        padding-top: 55px;
+      }
+
+      &-2 {
+        width: 93%;
+        margin-top: 55px;
+      }
+      &-3 {
+        width: 93%;
+        margin-top: 55px;
+      }
+      &-4 {
+        width: 93%;
+        margin-top: 55px;
+      }
+    }
+    .container-centre {
+      padding-top: 0px;
+    }
+    .steps-wrapper-3 {
+      padding-top: 10px;
+    }
+    .container-why-omnia{
+      padding-top: 50px;
+      &-text {
+        max-width: 681px;
+        font-size: 27px;
+        line-height: 31px;
+      }
+    }
+    .section-how-it-works{
+      padding-top: 80px;
+    }
+  }
+}
+@media screen and (max-width: 376px) {
+  .blockchainNode {
+    &-title {
+      padding: 140px 0 0 20px;
+    }
+    &-img {
+      height: 420px;
+      &-background {
+        padding-top: 150px;
+        img {
+          max-width: 350px;
+        }
+      }
+    }
+    &-button {
+      &-1 {
+        button {
+          padding: 13px 93px;
+        }
+      }
+    }
+    &-logo{
+      &-section{
+        img{
+          max-width: 158px;
+        }
+      }
+    }
+    .container-max-width {
+      max-width: 330px;
+    }
+    }
+}
+@media screen and (max-width: 320px) {
+  .blockchainNode {
+    &-title {
+      padding: 185px 0 0 20px;
+    }
+    &-img {
+      height: 495px;
+      &-background {
+        padding-top: 250px;
+        img {
+          max-width: 300px;
+        }
+      }
+    }
+    &-button{
+      &-1{
+        button{
+          padding: 13px 73px
+        }
+      }
+    }
+    &-logo{
+      &-section{
+        img{
+          max-width: 137px;
+        }
+      }
+    }
+    .container-max-width {
+      max-width: 290px;
+    }
+  }
+}
